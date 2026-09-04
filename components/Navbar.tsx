@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
+import { LogoBadge } from './LogoBadge';
 
 const navItems = [
   { label: 'Home', href: '/' },
@@ -49,9 +50,10 @@ export function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 xl:flex">
-          <button className="rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-navy transition hover:border-navy">
+          <button className="rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--navy)] transition hover:border-[var(--navy)]">
             EN / SW
           </button>
+          <LogoBadge />
           <Link href="/get-started" className="primary-button">
             Get Started
           </Link>
@@ -81,9 +83,10 @@ export function Navbar() {
               </Link>
             ))}
             <div className="flex items-center justify-between gap-3 pt-2">
-              <button className="rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-navy">
+              <button className="rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--navy)]">
                 EN / SW
               </button>
+              <LogoBadge />
               <Link href="/get-started" className="primary-button" onClick={() => setOpen(false)}>
                 Get Started
               </Link>

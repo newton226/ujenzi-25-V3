@@ -3,13 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --navy: #1f2a44;
-  --orange: #d97706;
-  --olive: #b8a552;
-  --cream: #fafaf8;
-  --charcoal: #1a1a1a;
-  --soft-text: #595959;
-  --success: #1e7a4c;
+ --navy: #16233A; /* base navy */
+ --terracotta: #C1672B; /* warm terracotta */
+ --electric: #FF6A00; /* bright accent */
+ --gold: #A98F4E;
+ --cream: #FAF6EF;
+ --charcoal: #1A1A1A;
+ --soft-text: #595959;
+ --success: #1E7A4C;
 }
 
 html {
@@ -73,3 +74,26 @@ img {
 .text-balance {
   text-wrap: balance;
 }
+
+/* subtle float animation for badges and accents (CSS-only, performant) */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* gentle pulse for primary CTAs */
+@keyframes pulse-soft {
+  0% { box-shadow: 0 10px 30px rgba(255,106,0,0.12); transform: translateY(0); }
+  50% { box-shadow: 0 14px 40px rgba(255,106,0,0.14); transform: translateY(-2px); }
+  100% { box-shadow: 0 10px 30px rgba(255,106,0,0.12); transform: translateY(0); }
+}
+
+.primary-button:hover {
+  animation: pulse-soft 700ms ease-in-out 1;
+}
+

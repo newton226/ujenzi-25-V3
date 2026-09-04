@@ -7,10 +7,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        navy: '#1F2A44',
-        orange: '#D97706',
-        olive: '#B8A552',
-        cream: '#FAFAF8',
+        navy: '#16233A',
+        terracotta: '#C1672B',
+        electric: '#FF6A00',
+        gold: '#A98F4E',
+        cream: '#FAF6EF',
         charcoal: '#1A1A1A',
         softText: '#595959',
         success: '#1E7A4C'
