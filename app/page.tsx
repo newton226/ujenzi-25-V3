@@ -128,10 +128,10 @@ export default function HomePage() {
         <div className="section-shell relative z-10 flex min-h-[85vh] items-center py-16 md:py-20">
           <div className="max-w-3xl text-white">
             <p className="muted-label text-white/80">BUILDING TANZANIA</p>
-            <h1 className="mt-6 max-w-2xl text-5xl font-black leading-[0.96] tracking-[-0.06em] md:text-7xl">
+            <h1 className="mt-6 max-w-2xl text-5xl font-black leading-[0.96] tracking-[-0.06em] md:text-7xl reveal-clip">
               From Blueprint to Keys — One Company, Five Services
             </h1>
-            <p className="mt-6 max-w-xl text-base text-slate-200 md:text-xl">
+            <p className="mt-6 max-w-xl text-base text-slate-200 md:text-xl reveal-fade">
               Your dream, our foundation. Consultation, construction, real estate, rentals, and stays — all in one trusted place.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">

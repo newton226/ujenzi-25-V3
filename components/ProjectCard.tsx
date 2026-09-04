@@ -20,7 +20,7 @@ export function ProjectCard({ title, location, image, description }: ProjectCard
           loading="lazy"
           className="object-cover transition duration-500 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/10 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[rgba(22,35,58,0.75)] via-[rgba(19,30,50,0.25)] to-transparent" />
         <div className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-navy">
           {location}
         </div>
