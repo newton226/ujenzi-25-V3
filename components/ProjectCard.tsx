@@ -30,7 +30,7 @@ export function ProjectCard({ title, location, image, description }: ProjectCard
           <h3 className="text-xl font-bold text-navy">{title}</h3>
         </div>
         <p className="text-sm leading-6 text-slate-600">{description}</p>
-        <Link href="/projects" className="inline-flex items-center text-sm font-semibold text-orange">
+        <Link href="/projects" className="inline-flex items-center text-sm font-semibold text-electric">
           View Details →
         </Link>
       </div>

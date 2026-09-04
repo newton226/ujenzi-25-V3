@@ -32,7 +32,7 @@ export default function ConstructionPage() {
               <button type="button" className="absolute right-4 top-4 z-20 flex h-9 w-9 items-center justify-center rounded-full border border-white/80 bg-white/90 text-base text-slate-700 shadow-sm transition hover:scale-105">🚩</button>
               <div className="relative h-52">
                 <img src={item.image} alt={item.title} loading="lazy" decoding="async" className="h-full w-full object-cover" />
-                <span className="absolute left-4 top-4 rounded-full bg-orange px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-white">{item.tag}</span>
+                <span className="absolute left-4 top-4 rounded-full bg-terracotta px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-white">{item.tag}</span>
               </div>
               <div className="p-5">
                 <h3 className="text-xl font-bold text-navy">{item.title}</h3>

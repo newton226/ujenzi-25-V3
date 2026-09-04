@@ -155,7 +155,7 @@ export default function HomePage() {
       <section className="section-shell py-20 md:py-24">
         <div className="mb-10 max-w-2xl">
           <div className="flex items-center gap-3">
-            <span className="h-2 w-2 rotate-45 bg-orange" />
+            <span className="h-2 w-2 rotate-45 bg-terracotta" />
             <span className="muted-label">OUR SERVICES</span>
           </div>
           <h2 className="mt-4 text-3xl font-black tracking-[-0.05em] text-navy md:text-5xl">
@@ -179,7 +179,7 @@ export default function HomePage() {
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             {reasons.map((reason) => (
               <div key={reason.title} className="soft-card p-6">
-                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-full bg-orange/10 text-xl text-orange">{reason.icon}</div>
+                              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-full bg-terracotta/10 text-xl text-terracotta">{reason.icon}</div>
                 <h3 className="text-xl font-bold text-navy">{reason.title}</h3>
                 <p className="mt-3 text-sm leading-6 text-slate-600">{reason.description}</p>
               </div>
@@ -191,7 +191,7 @@ export default function HomePage() {
       <section className="section-shell py-20 md:py-24">
         <div className="mb-10 flex items-end justify-between gap-4">
           <h2 className="text-3xl font-black tracking-[-0.05em] text-navy md:text-5xl">Our Work Speaks for Itself</h2>
-          <Link href="/projects" className="hidden text-sm font-semibold text-orange md:inline-flex">
+          <Link href="/projects" className="hidden text-sm font-semibold text-electric md:inline-flex">
             View All Projects →
           </Link>
         </div>
@@ -230,7 +230,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="mt-6 flex gap-2">
-              <span className="h-2.5 w-2.5 rounded-full bg-orange" />
+              <span className="h-2.5 w-2.5 rounded-full bg-terracotta" />
               <span className="h-2.5 w-2.5 rounded-full bg-white/40" />
               <span className="h-2.5 w-2.5 rounded-full bg-white/40" />
             </div>
@@ -245,7 +245,7 @@ export default function HomePage() {
             Tell us what you need and we’ll help you move from concept to completion with confidence.
           </p>
           <div className="mt-8 flex justify-center">
-            <Link href="/contact" className="primary-button bg-orange text-base">
+            <Link href="/contact" className="primary-button bg-electric text-base">
               Get in Touch
             </Link>
           </div>

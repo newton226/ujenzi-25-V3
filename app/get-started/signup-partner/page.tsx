@@ -15,7 +15,7 @@ export default function SignUpPartnerPage() {
             <span>Uthibitisho wa Kisheria</span>
           </div>
           <div className="mb-8 h-2 w-full overflow-hidden rounded-full bg-slate-200">
-            <div className="h-full w-1/2 rounded-full bg-orange" />
+                      <div className="h-full w-1/2 rounded-full bg-electric" />
           </div>
         </div>
 
@@ -92,12 +92,12 @@ export default function SignUpPartnerPage() {
 
             <div className="mt-5 space-y-5">
               <div className="rounded-2xl border-2 border-dashed border-slate-300 bg-white p-5 text-center">
-                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-orange/10 text-2xl text-orange">⇩</div>
+                              <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-terracotta/10 text-2xl text-terracotta">⇩</div>
                 <p className="text-sm text-slate-600">Pakia Leseni ya Biashara</p>
               </div>
 
               <div className="rounded-2xl border-2 border-dashed border-slate-300 bg-white p-5 text-center">
-                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-orange/10 text-2xl text-orange">⇩</div>
+                              <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-terracotta/10 text-2xl text-terracotta">⇩</div>
                 <p className="text-sm text-slate-600">Pakia Hati ya Umiliki wa Mali (kama ni mwenye nyumba/ardhi)</p>
               </div>
             </div>

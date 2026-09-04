@@ -68,11 +68,11 @@ export default function ConsultationPage() {
         <div className="soft-card overflow-hidden bg-navy text-white">
           <div className="grid gap-8 p-8 md:grid-cols-[1.3fr_0.7fr] md:p-12">
             <div>
-              <p className="muted-label text-orange">READY TO BUILD</p>
+              <p className="muted-label text-terracotta">READY TO BUILD</p>
               <h3 className="mt-4 text-3xl font-black tracking-[-0.05em] md:text-5xl">Ready to bring your project to life?</h3>
             </div>
             <div className="flex items-center justify-center md:justify-end">
-              <Link href="/consultation/request" className="primary-button bg-orange px-8 text-base">Request Consultation</Link>
+              <Link href="/consultation/request" className="primary-button bg-electric px-8 text-base">Request Consultation</Link>
             </div>
           </div>
         </div>

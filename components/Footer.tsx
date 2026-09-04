@@ -21,7 +21,7 @@ export function Footer() {
       <div className="section-shell grid gap-10 py-12 md:grid-cols-2 xl:grid-cols-4">
         <div>
           <div className="mb-4 flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/10 text-base font-black text-orange">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/10 text-base font-black text-gold">
               U
             </div>
             <div>
@@ -39,7 +39,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-orange">Quick Links</h3>
+          <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-gold">Quick Links</h3>
           <ul className="mt-5 space-y-3 text-sm text-slate-300">
             {quickLinks.map((item) => (
               <li key={item.href}>
@@ -50,7 +50,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-orange">Services</h3>
+          <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-gold">Services</h3>
           <ul className="mt-5 space-y-3 text-sm text-slate-300">
             {services.map((item) => (
               <li key={item.href}>
@@ -61,7 +61,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-orange">Contact</h3>
+          <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-gold">Contact</h3>
           <ul className="mt-5 space-y-3 text-sm text-slate-300">
             <li>Dar es Salaam, Tanzania</li>
             <li>+255 712 345 678</li>

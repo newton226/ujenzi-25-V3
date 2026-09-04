@@ -44,7 +44,7 @@ export default function AboutPage() {
         <div className="section-shell grid gap-6 md:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label} className="rounded-[26px] border border-white/10 bg-white/5 p-6 text-center">
-              <div className="text-4xl font-black tracking-[-0.06em] text-orange">{stat.value}</div>
+              <div className="text-4xl font-black tracking-[-0.06em] text-terracotta">{stat.value}</div>
               <div className="mt-2 text-sm uppercase tracking-[0.18em] text-slate-200">{stat.label}</div>
             </div>
           ))}

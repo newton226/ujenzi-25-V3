@@ -35,7 +35,7 @@ export default function ProjectsPage() {
               <div className="p-5">
                 <h3 className="text-xl font-bold text-navy">{project.title}</h3>
                 <p className="mt-2 text-sm leading-6 text-slate-600">{project.description}</p>
-                <div className="mt-4 inline-flex text-sm font-semibold text-orange">View Details →</div>
+                <div className="mt-4 inline-flex text-sm font-semibold text-electric">View Details →</div>
               </div>
             </div>
           ))}

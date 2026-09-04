@@ -52,7 +52,7 @@ img {
 }
 
 .primary-button {
-  @apply inline-flex items-center justify-center rounded-full bg-orange px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-orange/20 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl focus:outline-none;
+  @apply inline-flex items-center justify-center rounded-full bg-electric px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl focus:outline-none;
 }
 
 .secondary-button {
@@ -60,7 +60,7 @@ img {
 }
 
 .muted-label {
-  @apply text-[10px] font-semibold uppercase tracking-[0.24em] text-orange;
+  @apply text-[10px] font-semibold uppercase tracking-[0.24em] text-terracotta;
 }
 
 .status-pill {

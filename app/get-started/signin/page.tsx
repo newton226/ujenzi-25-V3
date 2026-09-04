@@ -21,7 +21,7 @@ export default function SignInPage() {
           </label>
 
           <div className="flex items-center justify-between gap-3 text-sm text-slate-600">
-            <Link href="/privacy" className="text-orange">Umesahau Password?</Link>
+            <Link href="/privacy" className="text-electric">Umesahau Password?</Link>
           </div>
 
           <button type="submit" className="primary-button w-full text-base">Ingia</button>

@@ -4,9 +4,9 @@ type StatusBadgeProps = {
 
 const classes = {
   Submitted: 'bg-slate-200 text-slate-700',
-  'In Review': 'bg-blue-100 text-blue-700',
-  Quoted: 'bg-orange-100 text-orange-700',
-  Delivered: 'bg-green-100 text-green-700'
+  'In Review': 'bg-navy/10 text-navy',
+  Quoted: 'bg-terracotta/10 text-terracotta',
+  Delivered: 'bg-success/10 text-success'
 };
 
 export function StatusBadge({ status }: StatusBadgeProps) {

@@ -18,7 +18,7 @@ export default function GetStartedLandingPage() {
           </div>
 
           <div className="rounded-[28px] border border-slate-200 bg-slate-50 p-6 text-center">
-            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-orange text-3xl text-white">✦</div>
+            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-terracotta text-3xl text-white">✦</div>
             <h2 className="mt-5 text-2xl font-black text-navy">Mtumiaji Mpya?</h2>
             <p className="mt-3 text-sm leading-6 text-slate-600">Unda akaunti yako na uanze na huduma inayokufaa.</p>
             <Link href="/get-started/select-account" className="primary-button mt-6 w-full">Jisajili</Link>

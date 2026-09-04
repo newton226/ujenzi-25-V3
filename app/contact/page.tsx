@@ -43,9 +43,9 @@ export default function ContactPage() {
             <div className="overflow-hidden rounded-[32px] border border-slate-200 bg-white p-3 shadow-soft">
               <div className="relative h-[290px] overflow-hidden rounded-[24px] bg-slate-200">
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(31,42,68,0.08),_rgba(255,255,255,0)_65%)]" />
-                <div className="absolute left-1/2 top-1/2 h-28 w-28 -translate-x-1/2 -translate-y-1/2 rounded-full border-8 border-orange/70 bg-white/70 shadow-lg" />
+                <div className="absolute left-1/2 top-1/2 h-28 w-28 -translate-x-1/2 -translate-y-1/2 rounded-full border-8 border-terracotta/70 bg-white/70 shadow-lg" />
                 <div className="absolute left-1/2 top-1/2 h-48 w-48 -translate-x-1/2 -translate-y-1/2 rounded-[30%] border border-slate-300" />
-                <div className="absolute left-1/2 top-1/2 h-20 w-20 -translate-x-1/2 -translate-y-1/2 rounded-full bg-orange/20" />
+                <div className="absolute left-1/2 top-1/2 h-20 w-20 -translate-x-1/2 -translate-y-1/2 rounded-full bg-terracotta/20" />
               </div>
             </div>
           </div>

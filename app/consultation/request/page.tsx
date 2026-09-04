@@ -56,7 +56,7 @@ export default function ConsultationRequestPage() {
           <div className="flex gap-3">
             {stepLabels.map((step, index) => (
               <div key={step} className="flex-1">
-                <div className={`h-2 rounded-full ${index === 0 ? 'bg-orange' : 'bg-slate-200'}`} />
+                <div className={`h-2 rounded-full ${index === 0 ? 'bg-electric' : 'bg-slate-200'}`} />
               </div>
             ))}
           </div>
@@ -158,7 +158,7 @@ export default function ConsultationRequestPage() {
 
               <label className="block text-sm font-medium text-slate-700 md:col-span-2">
                 Bajeti ya Makadirio
-                <input type="range" min="1" max="4" defaultValue="2" className="mt-3 w-full accent-orange" />
+                <input type="range" min="1" max="4" defaultValue="2" className="mt-3 w-full accent-electric" />
                 <div className="mt-2 flex justify-between text-xs text-slate-500">
                   <span>Chini ya TZS 50M</span>
                   <span>50M–150M</span>
@@ -188,21 +188,21 @@ export default function ConsultationRequestPage() {
 
               <div className="grid gap-5 md:grid-cols-3">
                 <div className="rounded-2xl border-2 border-dashed border-slate-300 bg-white p-5 text-center">
-                  <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-orange/10 text-2xl text-orange">⇩</div>
+                  <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-terracotta/10 text-2xl text-terracotta">⇩</div>
                   <p className="text-sm text-slate-600">Nyaraka za Ardhi</p>
-                  <input type="file" className="mt-3 block w-full text-[11px] text-slate-500 file:mr-2 file:rounded-full file:border-0 file:bg-orange file:px-3 file:py-1.5 file:text-xs file:font-semibold file:text-white" />
+                  <input type="file" className="mt-3 block w-full text-[11px] text-slate-500 file:mr-2 file:rounded-full file:border-0 file:bg-electric file:px-3 file:py-1.5 file:text-xs file:font-semibold file:text-white" />
                 </div>
 
                 <div className="rounded-2xl border-2 border-dashed border-slate-300 bg-white p-5 text-center">
-                  <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-orange/10 text-2xl text-orange">⇩</div>
+                  <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-terracotta/10 text-2xl text-terracotta">⇩</div>
                   <p className="text-sm text-slate-600">Picha / Video za Eneo</p>
-                  <input type="file" className="mt-3 block w-full text-[11px] text-slate-500 file:mr-2 file:rounded-full file:border-0 file:bg-orange file:px-3 file:py-1.5 file:text-xs file:font-semibold file:text-white" multiple />
+                  <input type="file" className="mt-3 block w-full text-[11px] text-slate-500 file:mr-2 file:rounded-full file:border-0 file:bg-electric file:px-3 file:py-1.5 file:text-xs file:font-semibold file:text-white" multiple />
                 </div>
 
                 <div className="rounded-2xl border-2 border-dashed border-slate-300 bg-white p-5 text-center">
-                  <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-orange/10 text-2xl text-orange">⇩</div>
+                  <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-terracotta/10 text-2xl text-terracotta">⇩</div>
                   <p className="text-sm text-slate-600">Mchoro wa Awali</p>
-                  <input type="file" className="mt-3 block w-full text-[11px] text-slate-500 file:mr-2 file:rounded-full file:border-0 file:bg-orange file:px-3 file:py-1.5 file:text-xs file:font-semibold file:text-white" />
+                  <input type="file" className="mt-3 block w-full text-[11px] text-slate-500 file:mr-2 file:rounded-full file:border-0 file:bg-electric file:px-3 file:py-1.5 file:text-xs file:font-semibold file:text-white" />
                 </div>
               </div>
 
@@ -210,7 +210,7 @@ export default function ConsultationRequestPage() {
                 <div className="flex flex-wrap gap-3">
                   {files.map((file) => (
                     <div key={file.name} className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700">
-                      <span className="flex h-7 w-7 items-center justify-center rounded-full bg-orange/10 text-[10px] font-bold text-orange">{file.badge}</span>
+                      <span className="flex h-7 w-7 items-center justify-center rounded-full bg-terracotta/10 text-[10px] font-bold text-terracotta">{file.badge}</span>
                       <span>{file.name}</span>
                       <button type="button" onClick={() => removeFile(file.name)} className="text-slate-400 hover:text-red-500">×</button>
                     </div>
